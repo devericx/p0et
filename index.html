@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+    <div class="post">
+        <a href="{{site.baserul}}{{post.url}}">
+            <h4>{{post.title}}</h4>
+            {{ post.excerpt }}
+            <p id="ellipses">
+                ...
+            </p>
+        </a>
+    </div>
+{% endfor %}

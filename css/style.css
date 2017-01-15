@@ -1,0 +1,102 @@
+/* ####################
+###### GENERAL #######
+###################### */
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ####################
+###### NAV #######
+###################### */
+
+.navbar {
+    width: 100%;
+    border-bottom: 1px #eee solid;
+}
+
+.nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav h5 {
+    font-size: 1.5em;
+    font-weight: 200;
+    padding: 0;
+    margin: 15px 0px 18px;
+}
+
+.nav a {
+    color: black;
+}
+
+#home {
+    display: inline-block;
+}
+
+#about {
+    display: inline-block;
+    float: right;
+}
+
+/* ####################
+###### POSTS #######
+###################### */
+
+.post {
+    width: 70%;
+    margin: 40px auto 20px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    padding-bottom: 7px;
+}
+
+.post h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 22px 25px 15px;
+}
+
+.post p {
+    font-weight: 300;
+    margin: 0 25px 15px;
+}
+
+#ellipses {
+
+}
+
+.post a {
+    color: black;
+}
+
+@media (min-width: 600px) {
+    .nav {
+        width: 60%;
+    }
+
+    .post {
+        width: 55%;
+    }
+}
+
+@media (min-width: 900px) {
+    .nav {
+        width: 60%;
+    }
+
+    .post {
+        width: 40%;
+    }
+}
