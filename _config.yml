@@ -16,4 +16,4 @@
 title: p0et
 email: devericx@gmail.com
 description: This site is for displaying my shitty p0etry.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/p0et" # the subpath of your site, e.g. /blog
