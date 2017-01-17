@@ -5,10 +5,13 @@ layout: default
 {% for post in site.posts %}
     <div class="post">
         <a href="{{site.baseurl}}{{post.url}}">
-            <h4>{{post.title}} | {{post.date | date_to_string}}</h4>
+            <h4>{{post.title}}</h4>
             {{ post.excerpt }}
             <p id="ellipses">
                 ...
+            </p>
+            <p id="date">
+                {{ post.date | date_to_string }}
             </p>
         </a>
     </div>

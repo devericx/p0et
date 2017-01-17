@@ -63,7 +63,7 @@ a:active {
     margin: 40px auto 20px;
     border: 1px #eee solid;
     border-radius: 5px;
-    padding-bottom: 7px;
+    padding-bottom: 2px;
 }
 
 .post h4 {
@@ -77,12 +77,16 @@ a:active {
     margin: 0 25px 15px;
 }
 
-#ellipses {
-
-}
-
 .post a {
     color: black;
+}
+
+#date {
+    margin: 0;
+    padding: 10px 25px;
+    border-top: 1px #eee solid;
+    color: #aaa;
+    font-size: 0.95em;
 }
 
 @media (min-width: 600px) {
